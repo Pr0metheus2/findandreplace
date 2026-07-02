@@ -18,7 +18,7 @@ namespace FindAndReplace
 			MLang = 4
 		}
 
-		public static Encoding Detect(byte[] bytes, EncodingDetector.Options opts = Options.KlerkSoftBom | Options.MLang, Encoding defaultEncoding = null)
+		public static Encoding Detect(byte[] bytes, EncodingDetector.Options opts = Options.KlerkSoftBom | Options.MLang | Options.KlerkSoftHeuristics, Encoding defaultEncoding = null)
 		{
 			Encoding encoding = null;
 
