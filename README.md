@@ -1,9 +1,15 @@
+**Note:**
+Original [FindAndReplace project](https://github.com/zzzprojects/findandreplace) does not seem to be maintained anymore, so I've decided to forked and fix some bugs. Feel free to use it as you wish.
+
 # What's Find and Replace (FNR)?
 Find and Replace (FNR) is an open source tool to find and replace text in multiple files. It can quickly search through large numbers of files and also find the information using regular expressions specifying the form of what you want, instead of literal text.
 
+<img width="886" height="683" alt="image" src="https://github.com/user-attachments/assets/e7a40dc4-c64e-4994-9f7d-51013438bdfe" />
+
+
 Read more on our [Website](http://findandreplace.io/).
 
-[Download](http://findandreplace.io/download)
+[Download](https://github.com/Pr0metheus2/findandreplace/releases)
 
 ## Sponsors
 
