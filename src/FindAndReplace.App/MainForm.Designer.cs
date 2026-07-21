@@ -127,15 +127,13 @@ namespace FindAndReplace.App
             // 
             // txtDir
             // 
-            this.txtDir.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
+            this.txtDir.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.errorProvider1.SetIconPadding(this.txtDir, 30);
             this.txtDir.Location = new System.Drawing.Point(79, 2);
             this.txtDir.Margin = new System.Windows.Forms.Padding(0);
-            this.txtDir.MinimumSize = new System.Drawing.Size(539, 20);
             this.txtDir.Name = "txtDir";
-            this.txtDir.Size = new System.Drawing.Size(539, 20);
+            this.txtDir.Size = new System.Drawing.Size(441, 20);
             this.txtDir.TabIndex = 0;
             this.txtDir.Validating += new System.ComponentModel.CancelEventHandler(this.txtDir_Validating);
             // 
@@ -254,8 +252,7 @@ namespace FindAndReplace.App
             // 
             // btnSelectDir
             // 
-            this.btnSelectDir.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnSelectDir.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.btnSelectDir.CausesValidation = false;
             this.btnSelectDir.Location = new System.Drawing.Point(526, 1);
             this.btnSelectDir.Margin = new System.Windows.Forms.Padding(0, 0, 5, 0);
